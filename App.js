@@ -88,22 +88,30 @@ if (responseOb) {
 const Styles=StyleSheet.create({
   Inputbox:{
     marginTop:200,
-    width:'50%',
-    alignSelf:'center',
+    width:'80%',
+    alignSelf:"center",
     height:50,
     textAlign:'center',
-    borderWidth:30,
-    borderRadius:40,
+    borderWidth:'30',
+    borderRadius:26,
+    backgroundColor:"black",
+    textAlign:"center",
+    color:"green",
+    fontFamily:"fantasy"
   },
   Button:{
-  borderRadius:39,
-  color:'yellow',
-  alignSelf:'center',
-  marginTop:100,
+  width: '50%',
+  alignSelf: 'center',
+  height: 50,
+ textAlign: 'center',
+ borderRadius: 20,
+ justifyContent: 'center',
+ backgroundColor:'rgb(249, 82, 107)',
+ marginTop:100,
   },
   text:{
-    marginTop:100,
-    color:'neon',
+    marginTop:10,
+    color:'rgb(255, 187, 0)',
     textAlign:"center",
     justifyContent:'center'
   }
